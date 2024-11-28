@@ -12,7 +12,7 @@ def thermal_forces(fr, E_b, d, alphac, alphab):
     d = #diameter of the shank
     A = np.pi / 4 * d**2 #stiffness area of the fastener
     alphac = #thermal expansion coefficient of fastener
-    alphab = #thermal expansion coefficient of clamped parts
+    alphab = #thermal expansion coefficient of clamped parts stuff
 
     FdTmax = (alphac - alphab) * DeltaTmax * E_b * A * (1 - fr)
     FdTmin = (alphac - alphab) * DeltaTmin * E_b * A * (1 - fr)
