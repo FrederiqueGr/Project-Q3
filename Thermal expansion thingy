@@ -1,5 +1,5 @@
 import numpy as np 
-
+#fgfgygyfg
 def thermal_forces(fr, E_b, d, alphac, alphab):
     Tmin = -90
     Tmax = 76.1
